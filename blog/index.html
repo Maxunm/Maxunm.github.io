@@ -1,0 +1,23 @@
+---
+layout: default
+title: Merrick's Blog
+---
+<article id="main">
+    <header>
+        <h2>Merrick's blog</h2>
+        <p>This is a blog to explore various personal projects that<br>
+            I'm working on or have completed.</p>
+    </header>
+    <section class="wrapper style5">
+        <div class="inner">
+
+            <ul class="posts">
+
+                {% for post in site.posts %}
+                <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </section>
+</article>
