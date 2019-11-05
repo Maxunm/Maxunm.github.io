@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "T-Shirt Press"
-date: 2019-11-05
+date: 2019-11-04
 ---
 ### T-Shirt Press
 The goal of this project is to make a working T-Shirt press in the style of the Cricut [Easy Press](https://cricut.com/en_us/cricut-easypress).
