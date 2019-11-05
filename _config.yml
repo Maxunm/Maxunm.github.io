@@ -1,2 +1,6 @@
 name: Merrick Rumel
-markdown: GFM
+# Build settings
+markdown: kramdown
+# Permalinks
+permalink:        pretty
+encoding:         UTF-8
