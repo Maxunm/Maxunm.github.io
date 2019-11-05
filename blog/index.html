@@ -10,14 +10,12 @@ title: Merrick's Blog
     </header>
     <section class="wrapper style5">
         <div class="inner">
-
-            <ul class="posts">
-
-                {% for post in site.posts %}
-                <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                {% for post in site.posts limit:4 %}
+                    <p>{{ post.excerpt }}</p>
+                    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                    <hr>
                 {% endfor %}
-            </ul>
-
+            <p>To see all posts older than 4 posts ago, go to the <a href="archive.html">archive</a>.</p>
         </div>
     </section>
 </article>

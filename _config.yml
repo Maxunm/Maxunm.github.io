@@ -1,6 +1,7 @@
 name: Merrick Rumel
 # Build settings
 markdown: kramdown
+excerpt_separator: "<!--more-->"
 # Permalinks
 permalink:        pretty
 encoding:         UTF-8

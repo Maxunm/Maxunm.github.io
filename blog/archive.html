@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blog Archive
+---
+<article id="main">
+    <header>
+        <h2>Blog Archive</h2>
+        <p>This is the location that any post made more than 4 posts ago will be</p>
+    </header>
+    <section class="wrapper style5">
+        <div class="inner">
+            {% for post in site.posts %}
+            <p>{{ post.excerpt }}</p>
+            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <hr>
+            {% endfor %}
+        </div>
+    </section>
+</article>
