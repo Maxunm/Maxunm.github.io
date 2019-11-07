@@ -5,3 +5,7 @@ excerpt_separator: "<!--more-->"
 # Permalinks
 permalink:        pretty
 encoding:         UTF-8
+
+url: "https://rumel.io" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
