@@ -20,22 +20,22 @@ The next step after picking a heated bed I needed to select an appropriate micro
 ##### First testing
 <div class="box alt">
 <div class="row gtr-50 gtr-uniform">
-<div class="col-4">
+<div class="col-6">
     <span class="image fit">
         <img src="/images/testing1.jpg" alt>
     </span>
 </div>
-<div class="col-4">
+<div class="col-6">
     <span class="image fit">
         <img src="/images/testing2.jpg" alt>
     </span>
 </div>
-<div class="col-4">
+<div class="col-6">
     <span class="image fit">
         <img src="/images/testing3.jpg" alt>
     </span>
 </div>
-<div class="col-4">
+<div class="col-6">
     <span class="image fit">
         <img src="/images/testing4.jpg" alt>
     </span>
