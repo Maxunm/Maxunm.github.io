@@ -18,6 +18,8 @@ The real first step of this project was to choose an appropriate heated bed to b
 The next step after picking a heated bed I needed to select an appropriate microcontroller to control everything. I am currently using a STM32F429I-DISC1 because I have used it extensively in one of my courses in university. I will use this with other electronics to monitor the temperature of the hot plate and control it using a solid state relay. The following equation will be used to determine the actual temperature of the hot plate$$ \frac{1}{T} = \frac{1}{T_{0}} + \frac{1}{\beta} + \ln{\frac{R}{R_{0}}} $$[...](https://community.st.com/s/question/0D50X0000AU39YK/is-stm32-microcontrols-are-capable-to-calculate-natural-logarithm-) The next major hurdle is how to set the target temperature I believe it will be through buttons, and then have some sort of ramp up to going faster and faster[...](https://community.st.com/s/question/0D50X00009XkWSgSAN/detecting-long-button-press-on-stm32f3) Probably the biggest hurdle of the whole project is to implement a PID feedback loop that will control the PWM signal to the heated bed. To implement a basic method that still has some flaws is this [tutorial for Arduino](https://www.teachmemicro.com/arduino-pid-control-tutorial/). To help remove some of these issues, I was fairly lost in what exactly to do. That was until I found this [amazing video series](https://www.youtube.com/playlist?list=PLwm8dUsxSPw_5t5QjZ6hnl5nSMBPPK4Hv) on youtube and I finally understood something deeper about PID and could more completely implement it in code.
 
 ##### First testing
+<div class="box alt">
+<div class="row gtr-50 gtr-uniform">
 <div class="col-4">
     <span class="image fit">
         <img src="/images/testing1.jpg" alt>
@@ -38,7 +40,8 @@ The next step after picking a heated bed I needed to select an appropriate micro
         <img src="/images/testing4.jpg" alt>
     </span>
 </div>
- 
+</div>
+</div>
 [//]: ![](/images/testing1.jpg)
 
 [//]: # (This loads the latex converter.)
