@@ -54,6 +54,14 @@ The next thing that is being worked upon is a PCB that is manufactured with the 
 
 As I am not a mechanical engineer or mechanical designer I can work in cad, but not to the extent to make things aesthetically pleasing, so I had a friend of mine create a design for the press. As it is very large it will be a slight issue trying to manufacture it. I think I may get it printed from a company that does 3D printing professionally. 
 
+### PCB "Things"
+I want to approach the pcb design and layout from at least two different angles, firstly my story about it and then specifics on the actual schematic and then the design and layout of the pcb itself. Below in these further section you can read all about exactly everything I went through from getting this designed to eventually having it manufactured. *I will continue to update this section as events actually happen so stay tuned.*
+
+Very helpful video [Click here](https://www.youtube.com/watch?v=t5phi3nT8OU&t=4009s)
+
+#### The Journey
+First of all this pcb has been a very, very long time coming. Furthermore, as of writing this section the pcb isn't even done or close to done. 
+
 [//]: # (This loads the latex converter.)
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
