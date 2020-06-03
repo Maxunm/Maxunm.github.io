@@ -57,7 +57,7 @@ As I am not a mechanical engineer or mechanical designer I can work in cad, but 
 ### PCB "Things"
 I want to approach the pcb design and layout from at least two different angles, firstly my story about it and then specifics on the actual schematic and then the design and layout of the pcb itself. Below in these further section you can read all about exactly everything I went through from getting this designed to eventually having it manufactured. *I will continue to update this section as events actually happen so stay tuned.*
 
-Very helpful video [Click here](https://www.youtube.com/watch?v=t5phi3nT8OU&t=4009s)
+Very helpful video [Click here](https://www.youtube.com/watch?v=t5phi3nT8OU)
 
 #### The Journey
 First of all this pcb has been a very, very long time coming. Furthermore, as of writing this section the pcb isn't even done or close to done. 
