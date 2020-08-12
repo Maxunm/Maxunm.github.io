@@ -23,7 +23,7 @@ The next step after picking a heated bed I needed to select an appropriate micro
 ##### First testing
 Here's some photos from some of the first testing attempts with the press still on a breadboard. This test was a great success as you can see from the photos! We, my girlfriend Alyssa and I, made 9 shirts for our families for Christmas morning and they are pictured below.
 
-The T-Shirt Press kept it's temperature stable throughout the whole test using the PID implementation talked about above and worked almost flawlessly. One large safety concern with it in the state that it is is the long screws that are being used to hold the heated bed to the wood that is being used as handles. The screws are in direct contact with the metal of the hot plate and heat to the same temperature as everything else. This could be solved using the plastic spacers that are provided with the heated plate from e3d and more screws of the correct size to clamp the wood correctly. 
+The T-Shirt Press kept its temperature stable throughout the whole test using the PID implementation talked about above and worked almost flawlessly. One large safety concern with it in the state that it is the long screws that are being used to hold the heated bed to the wood that is being used as handles. The screws are in direct contact with the metal of the hot plate and heat to the same temperature as everything else. This could be solved using the plastic spacers that are provided with the heated plate from e3d and more screws of the correct size to clamp the wood correctly. 
 <div class="box alt">
 <div class="row gtr-50 gtr-uniform">
 <div class="col-6">
@@ -55,9 +55,11 @@ The next thing that is being worked upon is a PCB that is manufactured with the 
 As I am not a mechanical engineer or mechanical designer I can work in cad, but not to the extent to make things aesthetically pleasing, so I had a friend of mine create a design for the press. As it is very large it will be a slight issue trying to manufacture it. I think I may get it printed from a company that does 3D printing professionally. 
 
 ### PCB "Things"
-I want to approach the pcb design and layout from at least two different angles, firstly my story about it and then specifics on the actual schematic and then the design and layout of the pcb itself. Below in these further section you can read all about exactly everything I went through from getting this designed to eventually having it manufactured. *I will continue to update this section as events actually happen so stay tuned.*
+I want to approach the pcb design and layout from at least two different angles, firstly my story about it and then specifics on the actual schematic and then the design and layout of the pcb itself. Below in these further section you can read all about exactly everything I went through from getting this designed to eventually having it manufactured. 
 
-Very helpful video [Click here](https://www.youtube.com/watch?v=t5phi3nT8OU)
+#### PCB Manufacturing process
+The PCBs arrived from China, and they came out perfectly, how I ordered them. It turned out that I had just forgotten to connect two nets, and I had to solder some very short wires to connect the unconnected nets. Otherwise, the circuit works fantastically! Now that we have the good news out of the way, let's get into the process of how it was actually made. Now I've been into the concept of getting my own PCB manufactured for several years at this point. As far as the process itself really went, I made the decision to use KiCAD as my design suite of choice. This was the logical conclusion for me because it is free and open source. The process of going from idea to completed PCB is logical in my mind. You start with the schematic of the circuit you are tyring to make. The most awesome part of KiCAD is how many common parts and even uncommon parts are in the default KiCAD libraries. This is also where I found [This video](https://www.youtube.com/watch?v=t5phi3nT8OU) and it showed the whole process of getting a PCB manufactured from JLCPCB. I followed this video step by step almost the whole way. *This section is a work in process and is being actively updated*
+
 
 #### The Journey
 First of all this pcb has been a very, very long time coming. Furthermore, as of writing this section the pcb isn't even done or close to done. 
