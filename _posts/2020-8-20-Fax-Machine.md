@@ -14,7 +14,7 @@ The webpage is just a simple page that displays an upload box and accepts upload
 ### Server side  
 So, the server is set up using apache2 which hosts the page written by Dave. After a file is uploaded the last thing the php script does is call my bash script. My bash script gets the file name to print, prints it and promptly deletes the file.  
   
-#### CUPS  
+### CUPS  
 One of the most confusing parts of the server-side configuration is setting up cups to manage my printer more easily than trying to manually set all of the settings. Brother also has a driver available for Linux, which my server is running, and using this It automatically configured all of the settings for the printer. The one setting that I did have to change was the paper size which is A4 by default.  
   
 ### Conclusion  
