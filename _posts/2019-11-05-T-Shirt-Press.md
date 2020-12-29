@@ -58,11 +58,18 @@ As I am not a mechanical engineer or mechanical designer I can work in cad, but 
 I want to approach the pcb design and layout from at least two different angles, firstly my story about it and then specifics on the actual schematic and then the design and layout of the pcb itself. Below in these further section you can read all about exactly everything I went through from getting this designed to eventually having it manufactured. 
 
 #### PCB Manufacturing process
-The PCBs arrived from China, and they came out perfectly, how I ordered them. It turned out that I had just forgotten to connect two nets, and I had to solder some very short wires to connect the unconnected nets. Otherwise, the circuit works fantastically! Now that we have the good news out of the way, let's get into the process of how it was actually made. Now I've been into the concept of getting my own PCB manufactured for several years at this point. As far as the process itself really went, I made the decision to use KiCAD as my design suite of choice. This was the logical conclusion for me because it is free and open source. The process of going from idea to completed PCB is logical in my mind. You start with the schematic of the circuit you are tyring to make. The most awesome part of KiCAD is how many common parts and even uncommon parts are in the default KiCAD libraries. This is also where I found [This video](https://www.youtube.com/watch?v=t5phi3nT8OU) and it showed the whole process of getting a PCB manufactured from JLCPCB. I followed this video step by step almost the whole way. *This section is a work in process and is being actively updated*
+The PCBs arrived from China, and they came out perfectly, how I ordered them. It turned out that I had just forgotten to connect two nets, and I had to solder some very short wires to connect the unconnected nets. Otherwise, the circuit works fantastically! Now that we have the good news out of the way, let's get into the process of how it was actually made. Now I've been into the concept of getting my own PCB manufactured for several years at this point. As far as the process itself really went, I made the decision to use KiCAD as my design suite of choice. This was the logical conclusion for me because it is free and open source. The process of going from idea to completed PCB is logical in my mind. You start with the schematic of the circuit you are tyring to make. The most awesome part of KiCAD is how many common parts and even uncommon parts are in the default KiCAD libraries. This is also where I found [This video](https://www.youtube.com/watch?v=t5phi3nT8OU) and it showed the whole process of getting a PCB manufactured from JLCPCB. I followed this video step by step almost the whole way. 
 
 
 #### The Journey
-First of all this pcb has been a very, very long time coming. Furthermore, as of writing this section the pcb isn't even done or close to done. 
+First of all this pcb has been a very, very long time coming. ~~Furthermore, as of writing this section the pcb isn't even done or close to done.~~ The pcb is done now! I ended up following along with the "Very helpful video" that I linked above. It basically consists of a STM32F4 with a power supply section and lots of connectors. See the schematic below.
+<div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+        <div class="col-12"><span class="image fit"><img src="/../../../../images/schematic.png" alt="" /></span></div>
+    </div>
+</div>
+
+
 
 [//]: # (This loads the latex converter.)
 <script type="text/javascript" async
